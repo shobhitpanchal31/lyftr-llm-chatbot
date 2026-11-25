@@ -1,0 +1,21 @@
+# Environment & secrets
+.env
+*.db
+*.db-wal
+*.db-shm
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.test_cache/
+
+# Node / Frontend
+frontend/node_modules/
+frontend/dist/
+.vite/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
